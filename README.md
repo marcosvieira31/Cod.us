@@ -1,6 +1,6 @@
 # Cod.us
 
-Landing page de empresa fictícia que constrói sites.
+Landing page de empresa fictícia que desenvolve sites.
 
 
 ## Instalação
