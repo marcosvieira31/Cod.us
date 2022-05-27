@@ -5,7 +5,7 @@ Landing page de empresa fictícia que constrói sites.
 
 ## Instalação
 
-Não é necessário instalação, acesse por este [link](https://marcosvieira31.github.io/RandomImage/)
+Não é necessário instalação, acesse por este [link](https://marcosvieira31.github.io/Cod.us/)
 ## Autores
 
 - [Marcos Vieira](https://www.github.com/marcosvieira31)
