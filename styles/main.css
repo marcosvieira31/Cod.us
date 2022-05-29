@@ -143,7 +143,6 @@ footer .title{
 #secondary-section ul li{
     padding-left: 0.5rem;
     font-size: 2rem;
-    list-style-image: url(/assets/circle-check.svg);
 }
 #secondary-section ul li::marker{
     font-size: 4rem;
