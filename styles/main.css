@@ -15,7 +15,7 @@
 body{
     width: 100vw;
 
-    background: linear-gradient(180deg, rgba(15, 194, 192, 0.35) 0%, #0FC2C0 100%);
+    background: linear-gradient(180deg, rgba(15, 194, 192, 0.55) 0%, #0FC2C0 100%);
     
 
     display: grid;
