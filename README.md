@@ -14,9 +14,10 @@ Não é necessário instalação, acesse por este [link](https://marcosvieira31.
 ## Aprendizados
 
 Em aprendizado.
+
 ## Stack utilizada
 
-**Front-end:** HTML, CSS E JavaScript
+**Front-end:** HTML e CSS
 
 
 
