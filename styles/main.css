@@ -12,6 +12,10 @@
     --secondary-font-color: #E5E5E5;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     width: 100vw;
 
@@ -57,15 +61,33 @@ header ul{
     list-style: none;
 }
 
-header ul li a{
+header ul li a {
     text-decoration: none;
     color: var(--primary-font-color);
 }
 
-header ul li:hover{
-    padding-bottom: 0.5rem;
-    border-bottom: 0.1rem solid var(--primary-font-color);
+header ul li {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     transition: 0.2s;
+}
+
+header ul li:hover {
+    padding-bottom: 0.5rem;
+}
+
+header ul li::after {
+    content: '';
+    width: 0;
+    height: 0.1rem;
+    background:var(--primary-font-color);
+    transition: width 0.3s;
+}
+
+header ul li:hover::after {
+    width: 100%;
 }
 
 main{
