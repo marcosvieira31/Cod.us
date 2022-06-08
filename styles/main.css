@@ -60,12 +60,27 @@ header ul{
 header ul li a{
     text-decoration: none;
     color: var(--primary-font-color);
+    margin-bottom: 0.25rem;
+     
 }
 
-header ul li:hover{
-    padding-bottom: 0.5rem;
-    border-bottom: 0.1rem solid var(--primary-font-color);
-    transition: 0.2s;
+header ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header ul li:hover::after{
+    width:100%;
+}
+
+header ul li::after{
+    content: "";
+    width: 0;
+    height: 0.15rem;
+    background-color: var(--primary-font-color);
+
+    transition: 0.3s;
 }
 
 main{
@@ -162,7 +177,7 @@ footer .title{
     flex-direction: column;
     align-items: center;
 
-    width: fit-content;
+    width: auto;
     align-items: flex-start;
 }
 #terciary-section h3{
